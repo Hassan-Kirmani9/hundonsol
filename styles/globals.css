@@ -159,3 +159,25 @@ html {
   background: #DEB887;
   filter: blur(150px);
 }
+
+@layer utilities {
+  .animate-gradient-xy {
+    background-size: 400% 400%;
+    animation: gradient-xy 15s ease infinite;
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-float-delayed {
+    animation: float 8s ease-in-out infinite;
+    animation-delay: -2s;
+  }
+
+  .animate-float-slow {
+    animation: float 10s ease-in-out infinite;
+    animation-delay: -5s;
+  }
+}
+  

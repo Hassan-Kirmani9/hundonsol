@@ -3,10 +3,10 @@
 import { motion } from 'framer-motion';
 import styles from '../styles';
 import { fadeIn, staggerContainer, zoomIn } from '../utils/motion';
-import { TitleText, TypingText } from '../components';
+import { TitleText, TypingText } from './CustomTexts';
 
 const TestimonialCard = ({ content, name, title, image, index }) => (
-    <motion.div
+    <motion.div     
         variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
         className="flex flex-col items-center p-6 border border-orange-500/20 rounded-2xl backdrop-blur-sm bg-black/30"
     >

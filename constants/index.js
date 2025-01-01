@@ -32,7 +32,6 @@ export const startingFeatures = [
   'No need to beat around the bush, just stay on the gas and have fun',
 ];
 
-
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
@@ -59,7 +58,7 @@ export const insights = [
     imgUrl: '/planet-07.png',
     title: 'ART WITH HUND NFTS',
     subtitle:
-      'In Q2, HUND will launch a distinctive NFT collection characterized by comic art aesthetics, offering unique digital assets for collectors and enthusiasts.'
+      'In Q2, HUND will launch a distinctive NFT collection characterized by comic art aesthetics, offering unique digital assets for collectors and enthusiasts.',
   },
   {
     imgUrl: '/planet-08.png',
@@ -95,7 +94,7 @@ export const socials = [
   {
     name: 'linkedin',
     url: '/dextools.svg',
-    link: 'https://www.dextools.io/app/en/solana/pair-explorer/CtXYCgkfMdTnvtiU8Ju6BjntBb3GRhmwYA8FaV1KCLMu?t=1711700643119', 
+    link: 'https://www.dextools.io/app/en/solana/pair-explorer/CtXYCgkfMdTnvtiU8Ju6BjntBb3GRhmwYA8FaV1KCLMu?t=1711700643119',
   },
   {
     name: 'instagram',

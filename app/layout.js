@@ -1,7 +1,7 @@
-'use client'
+'use client';
 
 import '../styles/globals.css';
-import FlowingBackground from '../components/FlowingBackground';
+import RippleCursor from '../components/RippleCursor';
 
 const RootLayout = ({ children }) => (
   <html lang="en">
@@ -10,8 +10,9 @@ const RootLayout = ({ children }) => (
       <link rel="stylesheet" href="https://stijndv.com/fonts/Eudoxus-Sans.css" />
     </head>
     <body>
-      <FlowingBackground />
+
       {children}
+      <RippleCursor />
     </body>
   </html>
 );
