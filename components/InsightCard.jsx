@@ -1,18 +1,18 @@
 'use client';
 
 import { motion } from 'framer-motion';
-
 import { fadeIn } from '../utils/motion';
 
-const InsightCard = ({ imgUrl, title, subtitle, index }) => (
+const InsightCard = ({ title, subtitle, index }) => (
   <motion.div
     variants={fadeIn('up', 'spring', index * 0.5, 1)}
     className="flex md:flex-row flex-col gap-4"
   >
-    <div className="relative md:w-[310px] w-full h-[250px] rounded-[32px] bg-gradient-to-r from-black to-slate-700"
+    <div
+      className="relative md:w-[310px] w-full h-[250px] rounded-[32px] bg-gradient-to-r from-black to-slate-700"
     >
       <span className="absolute inset-0 flex items-center justify-center text-white text-6xl font-bold">
-      {`0${index}`}
+        {`0${index}`}
       </span>
     </div>
 
@@ -26,9 +26,7 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => (
         </p>
       </div>
 
-      <div
-        className="lg:flex hidden items-center justify-center w-[100px] h-[100px] rounded-full bg-transparent border-[1px] border-yellow-600"
-      >
+      <div className="lg:flex hidden items-center justify-center w-[100px] h-[100px] rounded-full bg-transparent border-[1px] border-yellow-600">
         <img
           src="/arrow.svg"
           alt="arrow"
